@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(60 206 240)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid rgb(60 206 240);
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #0f0f25, #0f0f25)
+}
+
+.navbar-brand {
+    color: aqua !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: aliceblue !important;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+}
+
+
+/* @media (max-width:990px) {
+    .nav-link {
+        text-align: center;
+    }
+} */
+
+.container {
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mybtn {
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.mybtn:hover {
+    background-color: #0f0f25 !important;
+    background: none;
+    color: aqua;
+}
+
+.mybtn2 {
+    border: none;
+    color: black;
+    width: 7rem;
+    padding-bottom: 2px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: aqua;
+}
+
+.mybtn2:hover {
+    background-color: rgba(0, 238, 255, 0.63) !important;
+    background: none;
+    color: black;
+}
+
+.header2 {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    text-align: center;
+    background-color: red;
+    max-width: 1400px;
+    height: 100vh;
+}
